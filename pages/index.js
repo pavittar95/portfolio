@@ -86,7 +86,14 @@ export default function Home() {
             ))}
           </div>
         </section>
-        <section className="mb-50">
+        <section>
+          <div className="card">
+            <div className="card-body">
+              Download My Resume <button className="btn btn-primary">Download</button>
+            </div>
+          </div>
+        </section>
+        <section className="mb-50" id="contact-us">
           <h4 className="section-title">Connect with Me</h4>
           <ul className="connect-with-me">
             <li>

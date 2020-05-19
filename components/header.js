@@ -37,20 +37,20 @@ export default function Header() {
         <meta name="hostname" content="portfolio-coral-one.now.sh/" />
         <meta name="expected-hostname" content="portfolio-coral-one.now.sh/" />
         <meta name="revisit-after" content="7 days" />
-        <meta http-equiv="Expires" content="0" />
-        <meta http-equiv="Pragma" content="no-cache" />
-        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta httpEquiv="Expires" content="0" />
+        <meta httpEquiv="Pragma" content="no-cache" />
+        <meta httpEquiv="Cache-Control" content="no-cache" />
 
         {/* <!-- Google / Search Engine Tags --> */}
         <meta
-          itemprop="name"
+          itemProp="name"
           content="Pavittar Singh | Front end developer | Portfolio"
         />
         <meta
-          itemprop="description"
+          itemProp="description"
           content="Hello, my name is Pavittar Singh and I'm a front end developer in India. My portfolio is a representation of all that I've learned and accomplished as a FrontEnd Developer."
         />
-        <meta itemprop="image" content="/logo.png" />
+        <meta itemProp="image" content="/logo.png" />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://portfolio-coral-one.now.sh" />

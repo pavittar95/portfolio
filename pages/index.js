@@ -5,48 +5,86 @@ import { Fragment } from "react";
 export default function Home() {
   const services = [
     {
-      src:
-        "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png",
-      srcset:
-        "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/375px-Angular_full_color_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/500px-Angular_full_color_logo.svg.png 2x",
+      src: "/javascript.png",
+      srcset: "/javascript.png",
+      title: "JavaScript",
+      link: "https://www.javascript.com/",
+    },
+    {
+      src: "/react.png",
+      srcset: "/react.png",
       title: "ReactJs",
-      description:
-        "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications",
+      link: "https://reactjs.org/",
     },
     {
-      src:
-        "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png",
-      srcset:
-        "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/375px-Angular_full_color_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/500px-Angular_full_color_logo.svg.png 2x",
+      src: "/angular.png",
+      srcset: "/angular.png",
       title: "Angular",
-      description:
-        "Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.",
+      link: "https://angular.io/",
     },
     {
-      src:
-        "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png",
-      srcset:
-        "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/375px-Angular_full_color_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/500px-Angular_full_color_logo.svg.png 2x",
+      src: "/docker.png",
+      srcset: "/docker.png",
+      title: "Docker",
+      link: "https://www.docker.com/",
+    },
+    {
+      src: "/graphql.png",
+      srcset: "/graphql.png",
+      title: "GraphQl",
+      link: "https://graphql.org/",
+    },
+    {
+      src: "/node.png",
+      srcset: "/node.png",
       title: "Node",
-      description:
-        "Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.",
+      link: "https://nodejs.org/en/",
+    },
+    {
+      src: "/nextjs-lg.png",
+      srcset: "/nextjs-lg.png",
+      title: "NextJs",
+      link: "https://nextjs.org/",
     },
   ];
 
   const projects = [
     {
-      src:
-        "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png",
-      srcset:
-        "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/375px-Angular_full_color_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/500px-Angular_full_color_logo.svg.png 2x",
+      src: "/project-reachlive.png",
       title: "ReachLive",
+      link: "http://reachlive.com/",
     },
     {
-      src:
-        "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png",
-      srcset:
-        "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/375px-Angular_full_color_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/500px-Angular_full_color_logo.svg.png 2x",
+      src: "/project-reachlive.png",
       title: "ReachLive Admin",
+      link: "http://admin.reachlive.com/",
+    },
+    {
+      src: "/project-vndr.png",
+      title: "Vndr",
+      link: "https://findavndr.com/",
+    },
+    {
+      src: "/project-asparia.png",
+      title: "Asparia Text Chat",
+      link: "https://textingchat-test.simplify.health/",
+    },
+    {
+      src: "/project-irusa.png",
+      title: "Irusa",
+      link: "http://irusa.app/",
+      cls: "circle-card-item",
+    },
+    {
+      src: "/project-pipetrak.png",
+      title: "Pipetrak IT App",
+      link:
+        "https://play.google.com/store/apps/details?id=com.petroit.material&hl=en_IN",
+    },
+    {
+      src: "/project-procure.png",
+      title: "Procure Network",
+      link: "https://core.procure.co/",
     },
   ];
 
@@ -56,12 +94,16 @@ export default function Home() {
         <section>
           <div className="intro">
             <div className="intro-image">
-              <img src="https://lh3.googleusercontent.com/a-/AOh14GgwWWgwfOGiblrZS2K5f8Vb6Jz2oERTGbuiGp5FsQ=s96-c-rg-br100" />
+              <img src="/profile.png" alt="pavittar singh | profile image" />
             </div>
             <span className="intro-desc">
               Hello, my name is Pavittar Singh and I'm a front end developer in
-              punjab. My portfolio is a representation of all that I've learned
-              and accomplished as a FrontEnd Developer.
+              India. My portfolio is a representation of all that I've learned
+              and accomplished as a FrontEnd Developer. I am seeking a position
+              in which I can increase my knowledge, skill set and inter-personal
+              skills, while fully utilizing my experience and abilities working
+              with team members who support and teach each other to achieve
+              goals above and beyond expectations.
             </span>
           </div>
         </section>
@@ -78,21 +120,30 @@ export default function Home() {
         </section>
         <section id="projects" className="mb-50">
           <h4 className="section-title">Projects</h4>
-          <div className="card-list">
+          <div className="card-list mt-3">
             {projects.map((x, i) => (
               <Fragment key={i}>
-                <CircleCard {...x} />
+                <CircleCard {...x} parentCls="pt-30" />
               </Fragment>
             ))}
           </div>
         </section>
-        <section>
+        <section className="mb-20">
           <div className="card">
             <div className="card-body">
-              Download My Resume <button className="btn btn-primary">Download</button>
+              Download My{" "}
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                Resume
+              </a>
             </div>
           </div>
         </section>
+        <br />
         <section className="mb-50" id="contact-us">
           <h4 className="section-title">Connect with Me</h4>
           <ul className="connect-with-me">
@@ -113,14 +164,10 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
+        <span>
+          Developed by Me. Developed in
+          <img src="/nextjs-sm.png" alt="nextjs" />
+        </span>
       </footer>
     </Layout>
   );

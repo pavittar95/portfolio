@@ -148,16 +148,34 @@ export default function Home() {
           <h4 className="section-title">Connect with Me</h4>
           <ul className="connect-with-me">
             <li>
-              <img src="/instagram.png" />
-              <span>Instagram</span>
+              <a
+                href="http://instagram.com/pavittar95"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/instagram.png" />
+                <span>Instagram</span>
+              </a>
             </li>
             <li>
-              <img src="/twitter.png" />
-              <span>Twitter</span>
+              <a
+                href="https://twitter.com/pavi_1995"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/twitter.png" />
+                <span>Twitter</span>
+              </a>
             </li>
             <li>
-              <img src="/mail.png" />
-              <span>Email</span>
+              <a
+                href="mailto:singh.pavittar95@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/mail.png" />
+                <span>Email</span>
+              </a>
             </li>
           </ul>
         </section>

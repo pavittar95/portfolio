@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy":"vercel --prod"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
     "next": "9.4.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "sass": "^1.26.5"
+    "sass": "^1.26.5",
+    "vercel": "^19.0.1"
   }
 }

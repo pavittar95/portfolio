@@ -40,6 +40,44 @@ export default function Header() {
         <meta http-equiv="Expires" content="0" />
         <meta http-equiv="Pragma" content="no-cache" />
         <meta http-equiv="Cache-Control" content="no-cache" />
+
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta
+          itemprop="name"
+          content="Pavittar Singh | Front end developer | Portfolio"
+        />
+        <meta
+          itemprop="description"
+          content="Hello, my name is Pavittar Singh and I'm a front end developer in India. My portfolio is a representation of all that I've learned and accomplished as a FrontEnd Developer."
+        />
+        <meta itemprop="image" content="/logo.png" />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta property="og:url" content="https://portfolio-coral-one.now.sh" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Pavittar Singh | Front end developer | Portfolio"
+        />
+        <meta
+          property="og:description"
+          content="Hello, my name is Pavittar Singh and I'm a front end developer in India. My portfolio is a representation of all that I've learned and accomplished as a FrontEnd Developer."
+        />
+        <meta property="og:image" content="/logo.png" />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Pavittar Singh | Front end developer | Portfolio"
+        />
+        <meta
+          name="twitter:description"
+          content="Hello, my name is Pavittar Singh and I'm a front end developer in India. My portfolio is a representation of all that I've learned and accomplished as a FrontEnd Developer."
+        />
+        <meta name="twitter:image" content="/logo.png" />
+
+        {/* Meta Tags Generated via http://heymeta.com  */}
       </Head>
       <h1 className="brand open-sans-font"> Pavittar Singh </h1>
       <ul className="links">

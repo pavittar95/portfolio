@@ -5,8 +5,9 @@ export default function Header() {
   return (
     <header>
       <Head>
-        <title>Pavittar Singh | Front end developer | Portfolio</title>
+        <title>Pavittar Singh | Front End developer | Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="alternate" href="https://pavittarsingh.tk" hreflang="en-US"/> 
         <meta
           name="google-site-verification"
           content="_oyhB4K8pykEa9gWWceeLIcAtcdHuBm8HmOC14mOUfI"

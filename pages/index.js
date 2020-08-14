@@ -46,6 +46,12 @@ export default function Home() {
       title: "NextJs",
       link: "https://nextjs.org/",
     },
+    {
+      src: "/frontity.svg",
+      srcset: "/frontity.svg",
+      title: "Frontity",
+      link: "https://frontity.org/",
+    },
   ];
 
   const projects = [
@@ -175,6 +181,13 @@ export default function Home() {
               >
                 <img src="/mail.png" />
                 <span>Email</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/pavittar95" target="_blank"
+                rel="noopener noreferrer">
+                <img src="/github.png" />
+                <span>Github</span>
               </a>
             </li>
           </ul>

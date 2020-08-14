@@ -8,6 +8,10 @@ export default function Header() {
         <title>Pavittar Singh | Front end developer | Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
+          name="google-site-verification"
+          content="_oyhB4K8pykEa9gWWceeLIcAtcdHuBm8HmOC14mOUfI"
+        />
+        <meta
           name="description"
           content="Hello, my name is Pavittar Singh and I'm a front end developer in
           India. My portfolio is a representation of all that I've learned
